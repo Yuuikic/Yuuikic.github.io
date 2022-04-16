@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+    <meta charset="utf-8">
+
+    
+
+    <!-- 渲染优化 -->
+    <meta name="renderer" content="webkit">
+    <meta name="force-rendering" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="HandheldFriendly" content="True" >
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!--icon-->
+
+    
+        <link rel="shortcut icon" href="/icons/favicon.ico">
+    
+    
+        <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+    
+    
+        <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+    
+    
+        <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+    
+    
+
+
+    <!-- meta -->
+
+
+<title>8-2 | のんびり</title>
+
+
+
+
+
+    <!-- OpenGraph -->
+ 
+    <meta name="description" content="这是在8月3日的补记。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="8-2">
+<meta property="og:url" content="https://biyori.nonon.moe/2020-08-02/8%E6%9C%882%E6%97%A5.html/index.html">
+<meta property="og:site_name" content="のんびり">
+<meta property="og:description" content="这是在8月3日的补记。">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2020-08-01T16:01:00.000Z">
+<meta property="article:modified_time" content="2020-12-01T06:11:41.000Z">
+<meta property="article:author" content="桜庭夜">
+<meta name="twitter:card" content="summary_large_image">
+
+
+    
+<link rel="stylesheet" href="/css/style/main.css">
+ 
+
+    
+    
+        <link rel="stylesheet" id="hl-default-theme" href="/css/highlight/default.css" media="none" >
+        
+            <link rel="stylesheet" id="hl-dark-theme" href="/css/highlight/dark.css" media="none">
+        
+    
+
+    
+    
+
+    
+    
+<link rel="stylesheet" href="/css/style/dark.css">
+
+    
+<script src="/js/darkmode.js"></script>
+
+
+
+     
+
+    <!-- custom head -->
+
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+    <body>
+        <div id="app">
+            <header class="header">
+    <div class="header__left">
+        <a href="/" class="button">
+            <span class="logo__text">のんびり</span>
+        </a>
+    </div>
+    <div class="header__right">
+        
+            <div class="navbar__menus">
+                
+                    <a href="/" class="navbar-menu button">首页</a>
+                
+                    <a href="/archives/" class="navbar-menu button">归档</a>
+                
+                    <a href="/links/" class="navbar-menu button">链接</a>
+                
+            </div>
+        
+        
+        
+    <a href="/search/" id="btn-search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="24" height="24" fill="currentColor" stroke="currentColor" stroke-width="32"><path d="M192 448c0-141.152 114.848-256 256-256s256 114.848 256 256-114.848 256-256 256-256-114.848-256-256z m710.624 409.376l-206.88-206.88A318.784 318.784 0 0 0 768 448c0-176.736-143.264-320-320-320S128 271.264 128 448s143.264 320 320 320a318.784 318.784 0 0 0 202.496-72.256l206.88 206.88 45.248-45.248z"></path></svg>
+    </a>
+
+
+        
+        
+    <a href="javaScript:void(0);" id="btn-toggle-dark">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+    </a>
+
+
+        
+            <a class="dropdown-icon button" id="btn-dropdown" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width='24' height='24' fill="none" stroke="currentColor" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round"><path fill="currentColor" d="M3.314,4.8h13.372c0.41,0,0.743-0.333,0.743-0.743c0-0.41-0.333-0.743-0.743-0.743H3.314c-0.41,0-0.743,0.333-0.743,0.743C2.571,4.467,2.904,4.8,3.314,4.8z M16.686,15.2H3.314c-0.41,0-0.743,0.333-0.743,0.743s0.333,0.743,0.743,0.743h13.372c0.41,0,0.743-0.333,0.743-0.743S17.096,15.2,16.686,15.2z M16.686,9.257H3.314c-0.41,0-0.743,0.333-0.743,0.743s0.333,0.743,0.743,0.743h13.372c0.41,0,0.743-0.333,0.743-0.743S17.096,9.257,16.686,9.257z"></path></svg></a>
+            <div class="dropdown-menus" id="dropdown-menus">
+                
+                    <a href="/" class="dropdown-menu button">首页</a>
+                
+                    <a href="/archives/" class="dropdown-menu button">归档</a>
+                
+                    <a href="/links/" class="dropdown-menu button">链接</a>
+                
+            </div>
+        
+    </div>
+</header>
+
+
+            <main class="main">
+    
+
+<div class="post-title">
+    <h1 class="post-title__text">
+        8-2
+    </h1>
+    <div class="post-title__meta">
+        <a href="/archives/2020/08/" class="post-meta__date button">2020-08-02</a>
+        
+ 
+        
+    
+    
+
+
+ 
+
+ 
+    </div>
+</div>
+
+
+
+<article class="post content-card">
+    <div class="post__header"></div>
+    <div class="post__content">
+        <p>这是在8月3日的补记。</p>
+<span id="more"></span>
+
+<hr>
+<p>先说一下为什么8月2日的日记留到3日写。虽然现在是8月3日，但是为了让这篇日记像是2日写的，所以还是用“今天”来称呼8月2日吧。</p>
+<p>今天陪家人去两百公里外的H市看了一场少儿歌唱比赛江苏决赛，于是乎花了将近一天的时间。碰巧今天又十分炎热，这绝对是我目前对夏天的感觉最强烈的一天。但是我关注的选手并没有得到好的分数，这让我有些失望。</p>
+<p>然后前几日买了三秋缒老师的《三日间的幸福》，我终于开始阅读了。因为很有趣所以我停不下来，所以这本小说的优先级比写日记来得更高。噢这么讲好像不太对，“有趣”只是我读这本小说的感受，实际上它并不是喜剧之类的小说。</p>
+<p>晚上还与朋友玩了一会王者荣耀，然后又把崩崩崩的日活打满。</p>
+<p>打完游戏后我又继续读《三日间的幸福》，直到我实在顶不住困意，连灯都没关就睡着了。</p>
+<p>所以8月2日的日记我并没有写。</p>
+<hr>
+<p>上文提到今天是我目前对夏天的感觉最强烈的一天。除了炙烤着大地的烈阳，蒸腾潮湿的空气，让我感受到夏天的还有应该是这个夏季第一次听到的蝉鸣。</p>
+<p>实质上即使是在城市里，蝉鸣也是不少的，但是在这个夏季，今天我是第一次听见蝉鸣。</p>
+<p>原因并不难找到。我家住在28楼的高层，大概没有那么高的树或者浮空的树。基本上天天在家不出去的我，很难听见蝉鸣。也有可能是前段时间，或者说入夏以来，三天两头下雨，天气不够炎热，所以蝉才不叫吧。</p>
+<hr>
+<p>想随便写一段文字。以下内容纯属虚构，如有雷同，实属巧合。</p>
+<h2 id="群青色夏夜"><a href="#群青色夏夜" class="headerlink" title="群青色夏夜"></a>群青色夏夜</h2><p>暮色已经悄然降临，厚重的云完全掩盖了属于夕阳的美丽耀眼光辉，在天空和大地的相互遮掩下变成了灰蒙蒙的群青。</p>
+<p>夜晚前那一丝仅有的光线也似乎像透过了这般灰色的滤镜，将整个世界染成了灰与青毫无章法地混合在一起的颜色。世间的一切都将在日薄西山的那一瞬间，趋于相同的色彩。一时之间，我竟分辨不出这万物，道路、行人、树木……都浸入了这染料中。</p>
+<p>高温让本应流动空气凝固，声音也似乎不能通过这已经变质的介质传播，蝉鸣、车行、街边孩子的笑声，仿佛都变得沉闷且渺远，就如同整个人沉入了以热浪空气填充着的“深海”。</p>
+<p>但是我看见她站在那儿。</p>
+<p>她也潜入高温的深海，但当她浮出水面时，竟露出不属于这个夏季的清凉的笑容，摆动她顺滑的头发，化作水珠的高温海水蒸腾吸热，为周围的空气带来一丝凉爽。</p>
+<p>暮色的光仍不顾一切地向她泼上无趣黯淡的颜料，但是她全身都如同荷叶一般，一切流体都无法在其身上附着。就这样，她成为了这灰色与青的暮色下，我眼中的唯一妍丽色彩。宛如一颗易碎的琉璃珠，看起来无色的光透过它亦能绽出五彩缤纷的颜色。</p>
+<p>我驻足，远远地望着她宛如夏日神明般的身姿。</p>
+<p>我曾想得到这抹在暮色寂静绽开的五光十色。</p>
+<p>但是我决定将她留下，留在这个炎热的、寂静的、无趣的，但又像奇迹般的群青色夏夜。</p>
+<p>于回忆中化作属于我的，小规模奇迹。</p>
+<p>离开她，渺远的蝉鸣依旧。</p>
+<hr>
+<p>好了我扯完了。</p>
+
+    </div>
+    
+    <div class="post__license">
+        <p>
+            <strong>本文作者：</strong>桜庭夜
+        </p>
+        <p>
+            <strong>
+                本文链接：
+            </strong>
+            <a href="https://biyori.nonon.moe/2020-08-02/8%E6%9C%882%E6%97%A5.html/">https://biyori.nonon.moe/2020-08-02/8%E6%9C%882%E6%97%A5.html/</a>
+        </p>
+        
+    </div>
+ 
+    <div class="post-footer__meta"><p>更新于 2020-12-01</p></div> 
+    <div class="post-entry__tags"></div> 
+</article>
+
+
+    <div class="nav">
+        <div class="nav__prev">
+            
+                <a href="/2020-08-03/8%E6%9C%883%E6%97%A5.html/" class="nav__link">
+                    <div>
+                        <svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M589.088 790.624L310.464 512l278.624-278.624 45.248 45.248L400.96 512l233.376 233.376z" fill="#808080"></path></svg>
+                    </div>
+                    <div>
+                        <div class="nav__label">
+                            Previous Post
+                        </div>
+                        <div class="nav__title">
+                            8-3
+                        </div>
+                    </div>
+                </a>
+            
+        </div>
+        <div class="nav__next">
+            
+                <a href="/2020-08-01/8%E6%9C%881%E6%97%A5.html/" class="nav__link">
+                    <div>
+                        <div class="nav__label">
+                            Next Post
+                        </div>
+                        <div class="nav__title">
+                            8-1
+                        </div>
+                    </div>
+                    <div>
+                        <svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M434.944 790.624l-45.248-45.248L623.04 512l-233.376-233.376 45.248-45.248L713.568 512z" fill="#808080"></path></svg>
+                    </div>
+                </a>
+            
+        </div>
+    </div>
+
+
+
+    <div class="post__comments content-card" id="comment">
+        
+    <h4>评论</h4>
+    
+    
+    
+    <div id="valine_container" class="valine_thread"></div>
+
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+    </div>
+
+
+
+</main>
+
+            <footer class="footer">
+     
+    <a href="#" class="button" id="b2t" aria-label="回到顶部" title="回到顶部">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="32" height="32">
+            <path d="M233.376 722.752L278.624 768 512 534.624 745.376 768l45.248-45.248L512 444.128zM192 352h640V288H192z" fill="currentColor"></path>
+        </svg>
+    </a>
+
+    
+
+
+    
+     
+ 
+
+ 
+    
+        
+        <p class="footer-copyright">
+            Copyright © 2022 <a href="/">のんびり</a>
+        </p>
+    
+    
+    <p>Powered by <a href="https://hexo.io" target="_blank">Hexo</a> | Theme - <a href="https://github.com/ChrAlpha/hexo-theme-cards" target="_blank">Cards</a></p>
+</footer>
+
+        </div>
+        
+    <script defer src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.1.0/dist/lazyload.min.js"></script>
+    <script>
+        window.lazyLoadOptions = {
+            elements_selector: ".lazy",
+            threshold: 0
+        };
+    </script>
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+    
+ 
+
+
+    
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+
+    
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.4.1/dist/jquery.fancybox.min.css">
+
+    
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.4.1/dist/jquery.fancybox.min.js"></script>
+
+    <script>
+        let lazyloadT = Boolean('true'),
+            auto_fancybox = Boolean('true')
+        if (auto_fancybox) {
+            $(".post__content").find('img').each(function () {
+                var element = document.createElement("a");
+                $(element).attr("data-fancybox", "gallery");
+                $(element).attr("href", $(this).attr("src"));
+                if (lazyloadT) {
+                    $(element).attr("href", $(this).attr("data-srcset"));
+                }
+                $(this).wrap(element);
+            });
+        } else {
+            $(".post__content").find("fancybox").find('img').each(function () {
+                var element = document.createElement("a");
+                $(element).attr("data-fancybox", "gallery");
+                $(element).attr("href", $(this).attr("src"));
+                if (lazyloadT) {
+                    $(element).attr("href", $(this).attr("data-srcset"));
+                }
+                $(this).wrap(element);
+            });
+        }
+    </script>
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+    
+
+    
+    
+    
+    <script>
+        function loadComment() {
+            let e;
+            (e = document.createElement("script")).src = 'https://cdn.jsdelivr.net/npm/valine@1.4.14/dist/Valine.min.js',
+            document.body.appendChild(e);
+            e.onload = () => {
+                var valineConfig = {"appId":"A5U5K2YqwDQ8QDJ8u05XodPN-gzGzoHsz","appKey":"lLjEpONvrUDoMtDowdu3MyC9","placeholder":null,"path":"window.location.pathname","avatar":"mp","meta":["nick","mail","link"],"pageSize":null,"lang":null,"visitor":null,"highlight":null,"avatarForce":null,"recordIP":null,"serverURLs":null,"enableQQ":null,"requiredFields":["nick","mail"],"emojiCDN":null,"emojiMaps":null};
+                valineConfig.el = '#valine_container';
+                for (var i in valineConfig) {
+                    if (valineConfig[i] === null) delete valineConfig[i];
+                }
+                new Valine(valineConfig);
+            };
+        }
+    
+        var runningOnBrowser = typeof window !== "undefined";
+        var isBot = runningOnBrowser && !("onscroll" in window) || typeof navigator !== "undefined" && /(gle|ing|ro|msn)bot|crawl|spider|yand|duckgo/i.test(navigator.userAgent);
+        var supportsIntersectionObserver = runningOnBrowser && "IntersectionObserver" in window;
+    
+        setTimeout(function () {
+            if (!isBot && supportsIntersectionObserver) {
+                var comment_observer = new IntersectionObserver(function(entries) {
+                    if (entries[0].isIntersecting) {
+                        loadComment();
+                        comment_observer.disconnect();
+                    }
+                }, { threshold: [0] });
+                comment_observer.observe(document.getElementById('comment'));
+            } else {
+                loadComment();
+            }
+        }, 1);
+    </script>
+
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+
+
+
+    </body>
+</html>
