@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head>
+    <meta charset="utf-8">
+
+    
+
+    <!-- 渲染优化 -->
+    <meta name="renderer" content="webkit">
+    <meta name="force-rendering" content="webkit">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="HandheldFriendly" content="True" >
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!--icon-->
+
+    
+    
+    
+    
+    
+
+
+    <!-- meta -->
+
+
+<title>4/19 | のんびり</title>
+
+
+
+
+
+    <!-- OpenGraph -->
+ 
+    <meta name="description" content="发现Typro的一个bug。插入YAML Front Matter后，在下一行直接输入时，只能键入一个字符，输入多个字符后输入光标会跳动到YAML内，无法进行正常写作。因此，只能在正文第一行输入一个无意义字符，然后换行后开始书写正文。 不过，我觉得这也与输入法有关系。MS的输入法在输入时会将未选择的内容同时键入，也即zhe&#39;yang&#39;zi这样子，因而输入时会有多个字符。如果不会将z">
+<meta property="og:type" content="article">
+<meta property="og:title" content="4&#x2F;19">
+<meta property="og:url" content="https://biyori.nonon.moe/2022-04-19/20220419.html/index.html">
+<meta property="og:site_name" content="のんびり">
+<meta property="og:description" content="发现Typro的一个bug。插入YAML Front Matter后，在下一行直接输入时，只能键入一个字符，输入多个字符后输入光标会跳动到YAML内，无法进行正常写作。因此，只能在正文第一行输入一个无意义字符，然后换行后开始书写正文。 不过，我觉得这也与输入法有关系。MS的输入法在输入时会将未选择的内容同时键入，也即zhe&#39;yang&#39;zi这样子，因而输入时会有多个字符。如果不会将z">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2022-04-19T14:14:11.000Z">
+<meta property="article:modified_time" content="2022-04-19T14:41:06.090Z">
+<meta property="article:author" content="桜庭夜">
+<meta name="twitter:card" content="summary_large_image">
+
+
+    
+<link rel="stylesheet" href="/css/style/main.css">
+ 
+
+    
+    
+        <link rel="stylesheet" id="hl-default-theme" href="/css/highlight/default.css" media="none" onload="this.media='all'">
+        
+    
+
+    
+    
+
+    
+
+     
+
+    <!-- custom head -->
+
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+    <body>
+        <div id="app">
+            <header class="header">
+    <div class="header__left">
+        <a href="/" class="button">
+            <span class="logo__text">Demo</span>
+        </a>
+    </div>
+    <div class="header__right">
+        
+            <div class="navbar__menus">
+                
+                    <a href="/" class="navbar-menu button">首页</a>
+                
+                    <a href="/tags/" class="navbar-menu button">标签</a>
+                
+                    <a href="/archives/" class="navbar-menu button">归档</a>
+                
+                    <a href="/friends/" class="navbar-menu button">友链</a>
+                
+                    <a href="/page/" class="navbar-menu button">Page</a>
+                
+            </div>
+        
+        
+        
+
+        
+        
+
+        
+            <a class="dropdown-icon button" id="btn-dropdown" tabindex="0"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" width='24' height='24' fill="none" stroke="currentColor" stroke-width="0.7" stroke-linecap="round" stroke-linejoin="round"><path fill="currentColor" d="M3.314,4.8h13.372c0.41,0,0.743-0.333,0.743-0.743c0-0.41-0.333-0.743-0.743-0.743H3.314c-0.41,0-0.743,0.333-0.743,0.743C2.571,4.467,2.904,4.8,3.314,4.8z M16.686,15.2H3.314c-0.41,0-0.743,0.333-0.743,0.743s0.333,0.743,0.743,0.743h13.372c0.41,0,0.743-0.333,0.743-0.743S17.096,15.2,16.686,15.2z M16.686,9.257H3.314c-0.41,0-0.743,0.333-0.743,0.743s0.333,0.743,0.743,0.743h13.372c0.41,0,0.743-0.333,0.743-0.743S17.096,9.257,16.686,9.257z"></path></svg></a>
+            <div class="dropdown-menus" id="dropdown-menus">
+                
+                    <a href="/" class="dropdown-menu button">首页</a>
+                
+                    <a href="/tags/" class="dropdown-menu button">标签</a>
+                
+                    <a href="/archives/" class="dropdown-menu button">归档</a>
+                
+                    <a href="/friends/" class="dropdown-menu button">友链</a>
+                
+                    <a href="/page/" class="dropdown-menu button">Page</a>
+                
+            </div>
+        
+    </div>
+</header>
+
+
+            <main class="main">
+    
+
+<div class="post-title">
+    <h1 class="post-title__text">
+        4/19
+    </h1>
+    <div class="post-title__meta">
+        <a href="/archives/2022/04/" class="post-meta__date button">2022-04-19</a>
+        
+ 
+        
+    
+    
+
+
+ 
+
+ 
+    </div>
+</div>
+
+
+
+<article class="post content-card">
+    <div class="post__header"></div>
+    <div class="post__content">
+        <p>发现Typro的一个bug。插入YAML Front Matter后，在下一行直接输入时，只能键入一个字符，输入多个字符后输入光标会跳动到YAML内，无法进行正常写作。因此，只能在正文第一行输入一个无意义字符，然后换行后开始书写正文。</p>
+<p>不过，我觉得这也与输入法有关系。MS的输入法在输入时会将未选择的内容同时键入，也即<code>zhe&#39;yang&#39;zi</code>这样子，因而输入时会有多个字符。如果不会将<code>zhe&#39;yang&#39;zi</code>显示出来，或许就不会产生这样的后果了。</p>
+<p>但是，我依然认为这是是Typora的一个bug。</p>
+<p>哦？刚才我又测试了一下，发现是当Typro遇见==’==时，才会让输入光标移动到Front Matter内，也就是中文输入法中的分字符。这是什么奇怪的Bug啊？难道我以后使用hexo更新的日记第一句话都要用英文来写？（不是</p>
+<p>行了，bug的研究就到此为止。</p>
+<p>上一篇……上一篇是无字天书！没错，你只有将你的电脑、手机、显示器浸入水中和投入火中，那篇文章才会显示出来！额，其实是我试了下<code>hexo new</code>这个命令，自动生成了一篇文章。<code>hexo new</code>有什么好处？它生成的md文件会自动添加一个Front Matter，这样我就不用在手动插入时间信息了！（算了这么做真的很麻烦而且我还得去source文件夹里打开这个文件才行而我还是青睐直接打开Typora就开始书写）</p>
+<p>今天去食堂没带口罩被学生志愿者拦下来了。啊，其实还是比较烦的，南食堂距宿舍还比较远，走都走过来了但是因为没带口罩就要被赶回去（明明之前那些不负责任的志愿者都会让我进去的说）</p>
+<p>虽然我想在封校0进出人员的管理模式下，学校内简直是个安全得不能再安全的地方，口罩这种东西并没有什么实际作用。但是既然这是学校内的规定，而且公共场合佩戴口罩也已经是大家的的一个共识，以及戴口罩在当下已经是一名文明公民应该尽的一种义务，我还是应当遵守规定。但是倘若让我去校外，去公园、商场，我一定会好好佩戴口罩！校内这样子真的有必要吗？</p>
+<p>最后，从合理性角度出发，思考得出结论，这一切都是我的错是我罪有应得。虽然很不爽，但还是不断在内心告诫自己“这是自己的问题！不要再抱怨和生气了！”这样子的应该能控制情绪的话。</p>
+<p>尽管是为了反抗学校政策，这么看来也是愚蠢和得不偿失的，下次我还是老老实实带着口罩出门吧。</p>
+<p>当然，这里“带着口罩”指的是“携带”。我才不要在学校里莫名其妙地“佩戴”口罩嘞！诶，好像不戴口罩的我才是那个莫名其妙的人……</p>
+<p>一想到一只🐏就搅得全城水深火热不得安宁，就有各种各样的想法。最终，我并没有跳脱出去的能力与环境，就让我继续在一本吊车尾大学里摆烂吧！</p>
+<p>今天开始线上实习了，嗯，线上。上一次线上实习是金工实习，没错，金工实习都能线上！我们在家里，通过视频学习浇筑、焊接、车削……太离谱了吧！这次实习又变成先上了，拜这个离谱的疫情（政策）所致。</p>
+<p>但是这次实习是实习一个月诶……金工实习才一周啊，这一个月，实习，实习！这不是比上课还无聊？倒不如说，线上实习给我一种“荒唐”的感觉……</p>
+<p>真的，太荒唐了。</p>
+<p>最近我朋友的学校里有人在国外平台发布不当言论被学校开除了……</p>
+<p>就写这么多了！</p>
+
+    </div>
+     
+    <div class="post-footer__meta"><p>更新于 2022-04-19</p></div> 
+    <div class="post-entry__tags"></div> 
+</article>
+
+
+    <div class="nav">
+        <div class="nav__prev">
+            
+        </div>
+        <div class="nav__next">
+            
+                <a href="/2022-04-16/20200416.html/" class="nav__link">
+                    <div>
+                        <div class="nav__label">
+                            Next Post
+                        </div>
+                        <div class="nav__title">
+                            20200416
+                        </div>
+                    </div>
+                    <div>
+                        <svg viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M434.944 790.624l-45.248-45.248L623.04 512l-233.376-233.376 45.248-45.248L713.568 512z" fill="#808080"></path></svg>
+                    </div>
+                </a>
+            
+        </div>
+    </div>
+
+
+
+
+
+</main>
+
+            <footer class="footer">
+    
+    
+
+
+    
+     
+ 
+
+ 
+    
+        
+        <p class="footer-copyright">
+            Copyright © 2022 <a href="/">のんびり</a>
+        </p>
+    
+    
+    <p>Powered by <a href="https://hexo.io" target="_blank">Hexo</a> | Theme - <a href="https://github.com/ChrAlpha/hexo-theme-cards" target="_blank">Cards</a></p>
+</footer>
+
+        </div>
+         
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+ 
+
+
+
+ 
+
+
+    
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+
+
+
+    </body>
+</html>
